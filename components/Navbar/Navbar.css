@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #343A40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.navbar-item {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.2s;
+}
+
+.navbar-item:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-item:first-child {
+    margin-left: 0;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+}
